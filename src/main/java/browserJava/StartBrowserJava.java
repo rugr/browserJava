@@ -19,8 +19,8 @@ public class StartBrowserJava extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/views/container.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setTitle("RG BROWSER");
+        primaryStage.setScene(new Scene(root, 1024, 768));
         primaryStage.show();
         System.out.println("===== start StartBrowserJava =======");
     }
