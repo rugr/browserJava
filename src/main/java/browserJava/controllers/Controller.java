@@ -73,7 +73,8 @@ public class Controller {
         AnchorPane.setTopAnchor(newWebView, 26.0);
         AnchorPane.setBottomAnchor(newWebView, 0.0);
         newAnchorPane.getChildren().add(progressBar);
-        progressBar.setPrefHeight(25);
+        progressBar.setMinHeight(10);
+        progressBar.setPrefHeight(10);
         newTab.setContent(newAnchorPane);
         tabPane.getTabs().add(newTab);
         tabPane.getSelectionModel().select(newTab);
