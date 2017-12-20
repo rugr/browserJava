@@ -7,7 +7,7 @@
     <groupId>browserJava</groupId>
     <artifactId>browserJava</artifactId>
     <name>browserJava</name>
-    <version>0.0</version>
+    <version>RG</version>
     <packaging>jar</packaging>
 
     <properties>
